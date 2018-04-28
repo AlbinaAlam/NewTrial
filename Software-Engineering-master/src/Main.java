@@ -16,7 +16,7 @@ public class Main {
 		System.out.println("****Welcome to the Medication Field!!****");
 		System.out.println("Please enter the detail of patient:");
 		System.out.println("Name:");
-		name=scan.nextString();
+		name=scan.nextLine();
 		System.out.println("Age:");
 		age=scan.nextInt();
 		
@@ -34,6 +34,7 @@ public class Main {
 	    drugs.add("Motrin");
 	    drugs.add("Naproxen");
 	    drugs.add("Aspirin");
+	    drugs.add("Napa");
 	    
 	    
 		if(c==1){
@@ -100,8 +101,8 @@ public class Main {
 		getDose();
 		String newMedi;
 		Scanner scan= new Scanner (System.in);
-		newMed=scan.next();
-		addElement(newMed);
+		newMedi=scan.next();
+		//addElement(newMedi);
 		
 		System.out.println("New medicine:");
 		
